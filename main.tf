@@ -21,7 +21,7 @@ resource "random_string" "random" {
 }
 resource "time_sleep" "wait_30_seconds" {
   depends_on = [random_string.random]
-  create_duration = "3000s"
+  create_duration = "30s"
 }
 
 ####
