@@ -15,7 +15,7 @@ resource "null_resource" "null3" { }
 resource "null_resource" "null4" { }
 
 resource "random_string" "random" {
-  length           = 15
+  length           = 16
   special          = true
   override_special = "/@£$"
 }
