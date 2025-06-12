@@ -19,9 +19,10 @@ resource "random_string" "random" {
   special          = true
   override_special = "/@£$"
 }
+/*
 resource "time_sleep" "wait_30_seconds" {
   depends_on = [random_string.random]
   create_duration = "30s"
 }
-
+*/
 ####
