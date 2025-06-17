@@ -11,8 +11,8 @@ terraform {
   }
 }
 
-resource "null_resource" "null14" { }
-resource "null_resource" "null15" { }
+resource "null_resource" "null11" { }
+resource "null_resource" "null10" { }
 
 resource "random_string" "random" {
   length           = 10
