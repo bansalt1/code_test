@@ -11,11 +11,11 @@ terraform {
   }
 }
 
-resource "null_resource" "null51" { }
-resource "null_resource" "null6" { }
+resource "null_resource" "null1" { }
+resource "null_resource" "null2" { }
 
 resource "random_string" "random" {
-  length           = 9
+  length           = 10
   special          = true
   override_special = "/@£$"
 }
