@@ -33,7 +33,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "example" {
-  bucket = "tarun-test"
+  bucket = "tarun-test-98765432"
 }
 
 resource "random_string" "r" {
