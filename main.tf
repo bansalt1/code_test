@@ -33,7 +33,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "example" {
-  bucket = "tfe-explorer-demo-${random_string.r.result}"
+  bucket = "tarun-test"
 }
 
 resource "random_string" "r" {
