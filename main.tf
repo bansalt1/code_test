@@ -26,3 +26,16 @@ resource "time_sleep" "wait_30_seconds" {
 }
 */
 ####
+
+
+provider "aws" {
+  region = "us-east-1"
+}
+
+resource "aws_s3_bucket" "example" {
+  bucket = "tfe-explorer-demo-${random_string.r.result}"
+}
+
+resource "random_string" "r" {
+  length = 6
+}
